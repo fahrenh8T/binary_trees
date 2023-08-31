@@ -1,6 +1,9 @@
 0-node
 2-right
 4-leaf
+6-pre
+8-post
+
 1-left
 3-del
 5-root
@@ -9,5 +12,4 @@
 11-size
 13-nodes
 15-full
-17-sibling]
-6-pre
+17-sibling
