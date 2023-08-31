@@ -43,13 +43,13 @@ static int print_t(const binary_tree_t *tree, int offset, int depth, char **ft)
  *
  * Return: The height of the binary tree
  */
-static size_t _height(const binary_tree_t *tree)
+static size_t _hght(const binary_tree_t *tree)
 {
 	size_t hght_l;
 	size_t hght_r;
 
-	hght_l = tree->left ? 1 + _height(tree->left) : 0;
-	hght_r = tree->right ? 1 + _height(tree->right) : 0;
+	hght_l = tree->left ? 1 + _hght(tree->left) : 0;
+	hght_r = tree->right ? 1 + _hght(tree->right) : 0;
 	return (hght_l > hght_r ? hght_l : hght_r);
 }
 
