@@ -4,6 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <math.h>
+#include <limits.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -50,5 +54,9 @@ size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 size_t binary_tree_nodes(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
+
+/** advanced */
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 
 #endif /* BINARY_TREES_H */
