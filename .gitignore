@@ -8,11 +8,6 @@
 14-balance
 16-perfect
 18-uncle
-100-ancestor
-101-lvl
-102-complete
-103-rotl
-
 1-left
 3-del
 5-root
@@ -22,3 +17,8 @@
 13-nodes
 15-full
 17-sibling
+100-ancestor
+101-lvl
+102-complete
+103-rotl
+104-rotr
